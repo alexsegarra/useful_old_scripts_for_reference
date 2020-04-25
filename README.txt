@@ -1,1 +1,1 @@
-This repo contains scripts that I have referenced over and over again in different roles. They have come in handy when it comes to small, annoying data cleaning tasks.
+This repo contains scripts that I have referenced over and over again in different roles. They have come in handy when it comes to small, annoying data cleaning tasks, webscraping, and parsing json with limited tools (read, Python 2.7 w/o Pandas on a 30 year old UNIX server in Utah).
