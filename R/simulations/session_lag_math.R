@@ -153,11 +153,10 @@ library(ggfortify)
 
 autoplot(prcomp(df[,.(sessions,median_time,max_time,min_time)],scale.	= T), data = df, colour = 'group', shape = F)
 
-who_the_fuck_is_this= function(n){
+who_is_this= function(n){
   print(df[n,.(sessions, max_time, min_time, mean_time, median_time , score,zscore_normed,all_t,group)])
   graph_this(in_text = df$all_t[n], in_rank = df$rank_pure[n],in_median = df$median_time[n],in_group=df$group[n])
 }
 
-
-who_the_fuck_is_this(691)
+who_is_this(691)
 
